@@ -1,8 +1,10 @@
 # Based on "Interim 7 code.R" by Mikel Mckie, run on 24/02/2021.
 
 #### Load packages, set random seed ####
-if("librarian" %in% installed.packages()==FALSE) install.packages("librarian")
-librarian::shelf(bcrm, rjags, R2WinBUGS, reshape2)
+library(bcrm)
+library(rjags)
+library(R2WinBUGS)
+library(reshape2)
 set.seed(1234)
 
 

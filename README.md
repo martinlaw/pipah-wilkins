@@ -19,7 +19,7 @@ that is, the number of simulations used is 10. This is purely for checking that 
 
 ## Trial Design
 
-The code used to design the trial is shown in **Dose_finding_publish_v2.R**.
+The code used to design the trial is **Dose_finding_publish_v2.R**.
 
 The `bcrm` ("Bayesian CRM") package is used to obtain the trial design. Throughout, plots and reports are generated and saved to the hard drive (in the working directory). This includes operating characteristics, trajectories and the skeleton.
 
@@ -27,6 +27,21 @@ A variety of further simulations are run, pertaining to different possible scena
 
 Average incidence of toxicity for the various scenarios is also recorded and saved.
 
+
+## Interim Analysis
+
+The code used to conduct one of the interim analyses is **interim7_publish.R**.
+
+`tox.data` represents the dose levels and incidence of toxicity for each patient at the point of the interim analysis.
+
+After running the CRM code (`bcrm`), the code gives possible choices. Choose option (c) (`TYPE '0' AND HIT 'RETURN' TO EXIT AND RETURN CURRENT RESULTS)`).
+
+Again, the results of the simulation are printed and plotted. Also printed and plotted are details for use in an interim analysis report. These include:
+
+ - Dose and toxicity incidences over time;
+ - Prior and updated probabilities of toxicity
+ 
+As with the trial design code, some of these details are saved to the hard drive when the code is run.
 
 
 
