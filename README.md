@@ -43,6 +43,9 @@ Again, the results of the simulation are printed and plotted. Also printed and p
  
 As with the trial design code, some of these details are saved to the hard drive when the code is run.
 
+## Example of interim analysis (also included in repo as PDF)
+
+<object data="PIPAH_Trial_Statisticians_Interim_Report_PIP_007_example.pdf" type='application/pdf'/> 
 
 
 ## Output of sessionInfo()
@@ -72,3 +75,5 @@ attached base packages:
 loaded via a namespace (and not attached):
 [1] BiocManager_1.30.25 compiler_4.4.1      tools_4.4.1        
 [4] librarian_1.8.1     renv_1.0.11       
+
+
